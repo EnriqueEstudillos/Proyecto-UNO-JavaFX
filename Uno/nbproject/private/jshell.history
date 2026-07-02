@@ -1,0 +1,1 @@
+EXPRESSION#>ant -f C:\\Users\\bemen3\\Documents\\NetBeansProjects\\M03_UF5 -Dnb.internal.action.name=rebuild clean jar

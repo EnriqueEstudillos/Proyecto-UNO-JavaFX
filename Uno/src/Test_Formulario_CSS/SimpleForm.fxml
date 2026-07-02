@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="SimpleFormController"
+      spacing="10"
+      alignment="CENTER">
+    <children>
+        <TextField fx:id="nameField" promptText="Name"/>
+        <TextField fx:id="emailField" promptText="Email"/>
+    </children>
+</VBox>

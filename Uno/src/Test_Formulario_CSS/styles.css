@@ -1,0 +1,3 @@
+.text-field:focused {
+    -fx-background-color: orange;
+}

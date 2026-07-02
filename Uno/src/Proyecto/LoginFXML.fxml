@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Proyecto.LoginFXMLController">
+   <children>
+      <Label layoutX="463.0" layoutY="72.0" text="Inicio de Sesion">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombre" layoutX="495.0" layoutY="309.0" prefHeight="101.0" prefWidth="800.0" promptText="Usuario">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="contraseña" layoutX="495.0" layoutY="509.0" prefHeight="101.0" prefWidth="800.0" promptText="Contraseña">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </TextField>
+      <Label layoutX="205.0" layoutY="312.0" text="Usuario:">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="498.0" text="Contraseña:">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="registrarButton" layoutX="367.0" layoutY="696.0" text="Registrar">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="enviarButton" layoutX="899.0" layoutY="702.0" text="Enviar">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorUsuario" layoutX="497.0" layoutY="424.0" textFill="RED">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorContraseña" layoutX="497.0" layoutY="612.0" textFill="RED">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="correctoUsuario" layoutX="675.0" layoutY="32.0" textFill="#00ff13">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

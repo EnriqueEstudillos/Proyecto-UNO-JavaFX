@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Proyecto.GameLoopFXMLController">
+   <children>
+      <Text layoutX="409.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Loop Manager" wrappingWidth="856.13671875">
+         <font>
+            <Font name="DejaVu Sans Bold" size="70.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="popcorn" fitHeight="490.0" fitWidth="560.0" layoutX="200.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Apsara.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rainbow" fitHeight="490.0" fitWidth="560.0" layoutX="897.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Raven.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

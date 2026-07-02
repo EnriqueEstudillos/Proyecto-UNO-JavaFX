@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Proyecto.RegistrarFXMLController">
+    <children>
+      <Label layoutX="463.0" layoutY="72.0" text="Registrar Usuario">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombre" layoutX="485.0" layoutY="265.0" prefHeight="101.0" prefWidth="800.0" promptText="Usuario">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="contraseña" layoutX="486.0" layoutY="577.0" prefHeight="101.0" prefWidth="800.0" promptText="Contraseña">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </TextField>
+      <Label layoutX="256.0" layoutY="276.0" text="Usuario:">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="587.0" prefHeight="0.0" prefWidth="377.0" text="Contraseña:">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label fx:id="loginButton" layoutX="404.0" layoutY="704.0" text="Login">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="enviarButton" layoutX="899.0" layoutY="702.0" text="Enviar">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorUsuario" layoutX="494.0" layoutY="370.0" prefHeight="47.0" prefWidth="824.0" textFill="RED">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="437.0" text="Email (Opcional):">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="489.0" layoutY="446.0" prefHeight="101.0" prefWidth="800.0" promptText="Email">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
